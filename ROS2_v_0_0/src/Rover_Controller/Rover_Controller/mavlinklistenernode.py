@@ -12,7 +12,20 @@ class MLisNode(Node):
         self.create_timer(1.0,self.timer_callback)        
     
     def timer_callback(self):
-        self.get_logger().info("MavLink :" + str(self.MavC.recv_match(type='ATTITUDE',blocking=True)))   
+        try: 
+            Latitude = self.MavC.messages['GLOBAL_POSITION_INT'].lat
+            Longitude = self.MavC.messages['GLOBAL_POSITION_INT'].lon
+            altitude = self.MavC.messages['GLOBAL_POSITION_INT'].relative_alt
+            timestamp = self.MavC.time_since('GPS_RAW_INT')
+            self.get_logger().info("\nMavLink :" + 
+                                   "\n\tTime Stamp: \t" + str(timestamp) +
+                                   "\n\tLatitude: \t" + str(Latitude) + "\tdegE7" + 
+                                   "\n\tLongitude: \t" + str(Longitude) + "\tdegE7" + 
+                                   " \n\tAltitude: \t" + str(altitude) + "\tmm" 
+                                   )
+        except:
+            self.get_logger().info("\nMavLink : \n\t!!!!\tNo GPS_RAW_INT message received\t!!!!")  #self.MavC.recv_match(type='ATTITUDE',blocking=True)
+        
 
 def main(args = None):
     rclpy.init(args=args)
