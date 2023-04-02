@@ -1,0 +1,24 @@
+[0.557s] Invoking command in '/home/rayv/RoverHG/ROS2_v_0_0/src/Rover_Controller': PYTHONPATH=/home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/prefix_override:/home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Rover_Controller build --build-base /home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/build install --record /home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/install.log --single-version-externally-managed
+[0.757s] running egg_info
+[0.758s] writing ../../build/Rover_Controller/Rover_Controller.egg-info/PKG-INFO
+[0.758s] writing dependency_links to ../../build/Rover_Controller/Rover_Controller.egg-info/dependency_links.txt
+[0.758s] writing entry points to ../../build/Rover_Controller/Rover_Controller.egg-info/entry_points.txt
+[0.758s] writing requirements to ../../build/Rover_Controller/Rover_Controller.egg-info/requires.txt
+[0.759s] writing top-level names to ../../build/Rover_Controller/Rover_Controller.egg-info/top_level.txt
+[0.759s] reading manifest file '../../build/Rover_Controller/Rover_Controller.egg-info/SOURCES.txt'
+[0.760s] writing manifest file '../../build/Rover_Controller/Rover_Controller.egg-info/SOURCES.txt'
+[0.760s] running build
+[0.760s] running build_py
+[0.760s] copying Rover_Controller/mavlinklistenernode.py -> /home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/build/lib/Rover_Controller
+[0.761s] running install
+[0.761s] running install_lib
+[0.761s] copying /home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/build/lib/Rover_Controller/mavlinklistenernode.py -> /home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/python3.10/site-packages/Rover_Controller
+[0.762s] byte-compiling /home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/python3.10/site-packages/Rover_Controller/mavlinklistenernode.py to mavlinklistenernode.cpython-310.pyc
+[0.762s] running install_data
+[0.762s] running install_egg_info
+[0.763s] removing '/home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/python3.10/site-packages/Rover_Controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.764s] Copying ../../build/Rover_Controller/Rover_Controller.egg-info to /home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/python3.10/site-packages/Rover_Controller-0.0.0-py3.10.egg-info
+[0.764s] running install_scripts
+[0.780s] Installing testnode script to /home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/Rover_Controller
+[0.780s] writing list of installed files to '/home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/install.log'
+[0.809s] Invoked command in '/home/rayv/RoverHG/ROS2_v_0_0/src/Rover_Controller' returned '0': PYTHONPATH=/home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/prefix_override:/home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Rover_Controller build --build-base /home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/build install --record /home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/install.log --single-version-externally-managed

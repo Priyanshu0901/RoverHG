@@ -1,0 +1,17 @@
+[0.543s] Invoking command in '/home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller': PYTHONPATH=/home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/prefix_override:/home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/build --no-deps install_data
+[0.756s] running develop
+[0.887s] running egg_info
+[0.887s] writing Rover_Controller.egg-info/PKG-INFO
+[0.887s] writing dependency_links to Rover_Controller.egg-info/dependency_links.txt
+[0.888s] writing entry points to Rover_Controller.egg-info/entry_points.txt
+[0.888s] writing requirements to Rover_Controller.egg-info/requires.txt
+[0.888s] writing top-level names to Rover_Controller.egg-info/top_level.txt
+[0.888s] reading manifest file 'Rover_Controller.egg-info/SOURCES.txt'
+[0.889s] writing manifest file 'Rover_Controller.egg-info/SOURCES.txt'
+[0.890s] running build_ext
+[0.890s] Creating /home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/python3.10/site-packages/Rover-Controller.egg-link (link to .)
+[0.891s] Installing test_node script to /home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/Rover_Controller
+[0.891s] 
+[0.891s] Installed /home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller
+[0.891s] running install_data
+[0.928s] Invoked command in '/home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller' returned '0': PYTHONPATH=/home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/prefix_override:/home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/build --no-deps install_data
