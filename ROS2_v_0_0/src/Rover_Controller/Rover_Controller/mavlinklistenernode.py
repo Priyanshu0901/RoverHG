@@ -12,6 +12,7 @@ class MLisNode(Node):
         self.create_timer(1.0,self.timer_callback)        
     
     def timer_callback(self):
+        self.MavC.wait_heartbeat()
         try: 
             Latitude = self.MavC.messages['GLOBAL_POSITION_INT'].lat
             Longitude = self.MavC.messages['GLOBAL_POSITION_INT'].lon
