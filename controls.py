@@ -24,39 +24,41 @@ def move(lm,rm,st):
     msg = the_connection.recv_match(type='COMMAND_ACK',blocking=True)
     print(msg)
 
+def m_stop():
+    the_connection.mav.command_long_send(the_connection.target_system,the_connection.target_component,
+                                     mavutil.mavlink.MAV_CMD_DO_SET_RELAY,0,1,0,0,0,0,0,0,0)
+    the_connection.mav.command_long_send(the_connection.target_system,the_connection.target_component,
+                                     mavutil.mavlink.MAV_CMD_DO_SET_RELAY,0,2,0,0,0,0,0,0,0)
+    the_connection.mav.command_long_send(the_connection.target_system,the_connection.target_component,
+                                     mavutil.mavlink.MAV_CMD_DO_SET_RELAY,0,3,0,0,0,0,0,0,0)
+    the_connection.mav.command_long_send(the_connection.target_system,the_connection.target_component,
+                                     mavutil.mavlink.MAV_CMD_DO_SET_RELAY,0,4,0,0,0,0,0,0,0)
+    msg = the_connection.recv_match(type='COMMAND_ACK',blocking=True)
+    print(msg)
+
 def f_t():
     move(1,3,1)
-    
-def f_f():
-    move(1,3,0)
         
 def b_t():
     move(2,4,1)
-
-def b_f():
-    move(2,4,0)
     
 def l_t():
     move(2,3,1)
 
-def l_f():
-    move(2,3,0)
-
 def r_t():
     move(1,4,1)
 
-def r_f():
-    move(1,4,0)
-
+m_stop()
 f_t()
 time.sleep(5)
-f_f()
+m_stop()
 b_t()
 time.sleep(5)
-b_f()
+m_stop()
 l_t()
 time.sleep(5)
-l_f()
+m_stop()
 r_t()
 time.sleep(5)
-r_f()
+
+m_stop()
