@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "test_node = Rover_Controller.mavlinklistenernode:main"
+            "test_node = Rover_Controller.mavlinklistenernode:main",
+            "keyboard_node = Rover_Controller.keyboard_publisher:main",
+            "control_subscriber = Rover_Controller.control_subscriber:main"
         ],
     },
 )

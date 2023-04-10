@@ -1,0 +1,588 @@
+[0.288s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.288s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdddb7fcd00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdddb7fc790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdddb7fc790>>)
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.308s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rayv/RoverHG'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(FlightController_Builds(Ardu-Pilot)) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(FlightController_Builds(Ardu-Pilot)) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(FlightController_Builds(Ardu-Pilot)) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(FlightController_Builds(Ardu-Pilot)) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(FlightController_Builds(Ardu-Pilot)) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(FlightController_Builds(Ardu-Pilot)) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(FlightController_Builds(Ardu-Pilot)) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(FlightController_Builds(Ardu-Pilot)) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(FlightController_Builds(Ardu-Pilot)) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(FlightController_Builds(Ardu-Pilot)) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(FlightController_Builds(Ardu-Pilot)) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(FlightController_Builds(Ardu-Pilot)) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(FlightController_Builds(Ardu-Pilot)) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(FlightController_Builds(Ardu-Pilot)) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/build) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/build) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/build) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/install) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/install) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/install) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/log) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/log) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/log) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src/Rover_Controller) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src/Rover_Controller) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src/Rover_Controller) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src/Rover_Controller) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src/Rover_Controller) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src/Rover_Controller) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src/Rover_Controller) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src/Rover_Controller) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_v_0_0/src/Rover_Controller) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'ROS2_v_0_0/src/Rover_Controller' with type 'ros.ament_python' and name 'Rover_Controller'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Flight_Controller-backups) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Flight_Controller-backups) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Flight_Controller-backups) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Flight_Controller-backups) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Flight_Controller-backups) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Flight_Controller-backups) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Flight_Controller-backups) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Flight_Controller-backups) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Flight_Controller-backups) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Flight_Controller-backups) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Flight_Controller-backups) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Flight_Controller-backups) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Flight_Controller-backups) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Flight_Controller-backups) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Schematics PNG) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Schematics PNG) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Schematics PNG) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Schematics PNG) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Schematics PNG) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Schematics PNG) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Schematics PNG) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Schematics PNG) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Schematics PNG) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Schematics PNG) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Schematics PNG) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Schematics PNG) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Schematics PNG) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Schematics/Flight_Controller/Schematics PNG) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ASLUAV) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ASLUAV) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ASLUAV) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ASLUAV) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ASLUAV) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ASLUAV) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ASLUAV) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ASLUAV) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ASLUAV) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ASLUAV) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ASLUAV) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ASLUAV) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ASLUAV) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ASLUAV) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ardupilotmega) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ardupilotmega) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ardupilotmega) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ardupilotmega) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ardupilotmega) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ardupilotmega) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ardupilotmega) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ardupilotmega) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ardupilotmega) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ardupilotmega) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ardupilotmega) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ardupilotmega) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ardupilotmega) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/ardupilotmega) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/autoquad) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/autoquad) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/autoquad) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/autoquad) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/autoquad) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/autoquad) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/autoquad) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/autoquad) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/autoquad) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/autoquad) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/autoquad) by extension 'cmake'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/autoquad) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/autoquad) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/autoquad) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/common) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/common) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/common) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/common) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/common) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/common) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/common) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/common) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/common) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/common) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/common) by extension 'cmake'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/common) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/common) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/common) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/icarous) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/icarous) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/icarous) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/icarous) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/icarous) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/icarous) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/icarous) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/icarous) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/icarous) by extension 'ros'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/icarous) by extensions ['cmake', 'python']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/icarous) by extension 'cmake'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/icarous) by extension 'python'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/icarous) by extensions ['python_setup_py']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/icarous) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/matrixpilot) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/matrixpilot) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/matrixpilot) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/matrixpilot) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/matrixpilot) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/matrixpilot) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/matrixpilot) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/matrixpilot) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/matrixpilot) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/matrixpilot) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/matrixpilot) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/matrixpilot) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/matrixpilot) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/matrixpilot) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/message_definitions) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/message_definitions) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/message_definitions) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/message_definitions) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/message_definitions) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/message_definitions) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/message_definitions) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/message_definitions) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/message_definitions) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/message_definitions) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/message_definitions) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/message_definitions) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/message_definitions) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/message_definitions) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/minimal) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/minimal) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/minimal) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/minimal) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/minimal) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/minimal) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/minimal) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/minimal) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/minimal) by extension 'ros'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/minimal) by extensions ['cmake', 'python']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/minimal) by extension 'cmake'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/minimal) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/minimal) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/minimal) by extension 'python_setup_py'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/slugs) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/slugs) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/slugs) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/slugs) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/slugs) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/slugs) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/slugs) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/slugs) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/slugs) by extension 'ros'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/slugs) by extensions ['cmake', 'python']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/slugs) by extension 'cmake'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/slugs) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/slugs) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/slugs) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/standard) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/standard) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/standard) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/standard) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/standard) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/standard) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/standard) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/standard) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/standard) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/standard) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/standard) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/standard) by extension 'python'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/standard) by extensions ['python_setup_py']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/standard) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/test) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/test) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/test) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/test) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/test) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/test) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/test) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/test) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/test) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/test) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/test) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/test) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/test) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/test) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/uAvionix) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/uAvionix) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/uAvionix) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/uAvionix) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/uAvionix) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/uAvionix) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/uAvionix) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/uAvionix) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/uAvionix) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/uAvionix) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/uAvionix) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/uAvionix) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/uAvionix) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(c_uart_interface_example/mavlink/include/mavlink/v2.0/uAvionix) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ros'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['cmake', 'python']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'cmake'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['python_setup_py']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0) by extension 'ros'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0) by extensions ['cmake', 'python']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0) by extension 'cmake'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0) by extension 'python'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0) by extensions ['python_setup_py']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/ardupilotmega) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/ardupilotmega) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/ardupilotmega) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/ardupilotmega) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/ardupilotmega) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/ardupilotmega) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/ardupilotmega) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/ardupilotmega) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/ardupilotmega) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/ardupilotmega) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/ardupilotmega) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/ardupilotmega) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/ardupilotmega) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/ardupilotmega) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/common) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/common) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/common) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/common) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/common) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/common) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/common) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/common) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/common) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/common) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/common) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/common) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/common) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/common) by extension 'python_setup_py'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/cubepilot) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/cubepilot) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/cubepilot) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/cubepilot) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/cubepilot) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/cubepilot) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/cubepilot) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/cubepilot) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/cubepilot) by extension 'ros'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/cubepilot) by extensions ['cmake', 'python']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/cubepilot) by extension 'cmake'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/cubepilot) by extension 'python'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/cubepilot) by extensions ['python_setup_py']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/cubepilot) by extension 'python_setup_py'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/icarous) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/icarous) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/icarous) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/icarous) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/icarous) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/icarous) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/icarous) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/icarous) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/icarous) by extension 'ros'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/icarous) by extensions ['cmake', 'python']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/icarous) by extension 'cmake'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/icarous) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/icarous) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/icarous) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/minimal) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/minimal) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/minimal) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/minimal) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/minimal) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/minimal) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/minimal) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/minimal) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/minimal) by extension 'ros'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/minimal) by extensions ['cmake', 'python']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/minimal) by extension 'cmake'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/minimal) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/minimal) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/minimal) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/standard) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/standard) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/standard) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/standard) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/standard) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/standard) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/standard) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/standard) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/standard) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/standard) by extensions ['cmake', 'python']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/standard) by extension 'cmake'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/standard) by extension 'python'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/standard) by extensions ['python_setup_py']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/standard) by extension 'python_setup_py'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/uAvionix) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/uAvionix) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/uAvionix) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/uAvionix) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/uAvionix) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/uAvionix) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/uAvionix) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/uAvionix) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/uAvionix) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/uAvionix) by extensions ['cmake', 'python']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/uAvionix) by extension 'cmake'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/uAvionix) by extension 'python'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/uAvionix) by extensions ['python_setup_py']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(include/mavlink2.0/uAvionix) by extension 'python_setup_py'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.363s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rayv/RoverHG/ROS2_v_0_0/install
+[0.364s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 290 installed packages in /opt/ros/humble
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'Rover_Controller' build argument 'cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'Rover_Controller' build argument 'cmake_target' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'Rover_Controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'Rover_Controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'Rover_Controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'Rover_Controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'Rover_Controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'Rover_Controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'Rover_Controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.415s] DEBUG:colcon.colcon_core.verb:Building package 'Rover_Controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rayv/RoverHG/build/Rover_Controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rayv/RoverHG/install/Rover_Controller', 'merge_install': False, 'path': '/home/rayv/RoverHG/ROS2_v_0_0/src/Rover_Controller', 'symlink_install': True, 'test_result_base': None}
+[0.416s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.419s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.419s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rayv/RoverHG/ROS2_v_0_0/src/Rover_Controller' with build type 'ament_python'
+[0.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('Rover_Controller', 'ament_prefix_path')
+[0.423s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayv/RoverHG/install/Rover_Controller/share/Rover_Controller/hook/ament_prefix_path.ps1'
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rayv/RoverHG/install/Rover_Controller/share/Rover_Controller/hook/ament_prefix_path.dsv'
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayv/RoverHG/install/Rover_Controller/share/Rover_Controller/hook/ament_prefix_path.sh'
+[0.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.668s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rayv/RoverHG/ROS2_v_0_0/src/Rover_Controller'
+[0.670s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.670s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rayv/RoverHG/build/Rover_Controller': PYTHONPATH=/home/rayv/RoverHG/build/Rover_Controller/prefix_override:/home/rayv/RoverHG/install/Rover_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rayv/RoverHG/build/Rover_Controller/build --no-deps install_data
+[1.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('Rover_Controller', 'pythonpath_develop')
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayv/RoverHG/build/Rover_Controller/share/Rover_Controller/hook/pythonpath_develop.ps1'
+[1.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rayv/RoverHG/build/Rover_Controller' returned '0': PYTHONPATH=/home/rayv/RoverHG/build/Rover_Controller/prefix_override:/home/rayv/RoverHG/install/Rover_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rayv/RoverHG/build/Rover_Controller/build --no-deps install_data
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rayv/RoverHG/build/Rover_Controller/share/Rover_Controller/hook/pythonpath_develop.dsv'
+[1.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayv/RoverHG/build/Rover_Controller/share/Rover_Controller/hook/pythonpath_develop.sh'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/rayv/RoverHG/install/Rover_Controller' for CMake module files
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/rayv/RoverHG/install/Rover_Controller' for CMake config files
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/rayv/RoverHG/install/Rover_Controller/lib'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/rayv/RoverHG/install/Rover_Controller/bin'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/rayv/RoverHG/install/Rover_Controller/lib/pkgconfig/Rover_Controller.pc'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/rayv/RoverHG/install/Rover_Controller/lib/python3.10/site-packages'
+[1.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('Rover_Controller', 'pythonpath')
+[1.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayv/RoverHG/install/Rover_Controller/share/Rover_Controller/hook/pythonpath.ps1'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rayv/RoverHG/install/Rover_Controller/share/Rover_Controller/hook/pythonpath.dsv'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayv/RoverHG/install/Rover_Controller/share/Rover_Controller/hook/pythonpath.sh'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/rayv/RoverHG/install/Rover_Controller/bin'
+[1.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Rover_Controller)
+[1.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayv/RoverHG/install/Rover_Controller/share/Rover_Controller/package.ps1'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rayv/RoverHG/install/Rover_Controller/share/Rover_Controller/package.dsv'
+[1.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayv/RoverHG/install/Rover_Controller/share/Rover_Controller/package.sh'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayv/RoverHG/install/Rover_Controller/share/Rover_Controller/package.bash'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayv/RoverHG/install/Rover_Controller/share/Rover_Controller/package.zsh'
+[1.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rayv/RoverHG/install/Rover_Controller/share/colcon-core/packages/Rover_Controller)
+[1.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.485s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.485s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.485s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.493s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.493s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.493s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.509s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.512s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rayv/RoverHG/install/local_setup.ps1'
+[1.514s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rayv/RoverHG/install/_local_setup_util_ps1.py'
+[1.518s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rayv/RoverHG/install/setup.ps1'
+[1.521s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rayv/RoverHG/install/local_setup.sh'
+[1.522s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rayv/RoverHG/install/_local_setup_util_sh.py'
+[1.523s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rayv/RoverHG/install/setup.sh'
+[1.527s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rayv/RoverHG/install/local_setup.bash'
+[1.528s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rayv/RoverHG/install/setup.bash'
+[1.532s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rayv/RoverHG/install/local_setup.zsh'
+[1.533s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rayv/RoverHG/install/setup.zsh'

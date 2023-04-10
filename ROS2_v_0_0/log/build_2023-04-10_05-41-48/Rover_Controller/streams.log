@@ -1,0 +1,19 @@
+[0.616s] Invoking command in '/home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller': PYTHONPATH=/home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/prefix_override:/home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/build --no-deps install_data
+[0.855s] running develop
+[1.000s] running egg_info
+[1.000s] writing Rover_Controller.egg-info/PKG-INFO
+[1.001s] writing dependency_links to Rover_Controller.egg-info/dependency_links.txt
+[1.001s] writing entry points to Rover_Controller.egg-info/entry_points.txt
+[1.001s] writing requirements to Rover_Controller.egg-info/requires.txt
+[1.001s] writing top-level names to Rover_Controller.egg-info/top_level.txt
+[1.002s] reading manifest file 'Rover_Controller.egg-info/SOURCES.txt'
+[1.010s] writing manifest file 'Rover_Controller.egg-info/SOURCES.txt'
+[1.011s] running build_ext
+[1.012s] Creating /home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/python3.10/site-packages/Rover-Controller.egg-link (link to .)
+[1.012s] Installing keyboard_node script to /home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/Rover_Controller
+[1.013s] Installing test_node script to /home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/Rover_Controller
+[1.013s] 
+[1.013s] Installed /home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller
+[1.013s] running install_data
+[1.013s] copying package.xml -> /home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/share/Rover_Controller
+[1.053s] Invoked command in '/home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller' returned '0': PYTHONPATH=/home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/prefix_override:/home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/build --no-deps install_data

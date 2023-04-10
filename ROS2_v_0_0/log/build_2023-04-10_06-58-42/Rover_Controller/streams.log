@@ -1,0 +1,20 @@
+[0.605s] Invoking command in '/home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller': PYTHONPATH=/home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/prefix_override:/home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/build --no-deps install_data
+[0.826s] running develop
+[0.969s] running egg_info
+[0.970s] writing Rover_Controller.egg-info/PKG-INFO
+[0.970s] writing dependency_links to Rover_Controller.egg-info/dependency_links.txt
+[0.970s] writing entry points to Rover_Controller.egg-info/entry_points.txt
+[0.970s] writing requirements to Rover_Controller.egg-info/requires.txt
+[0.970s] writing top-level names to Rover_Controller.egg-info/top_level.txt
+[0.971s] reading manifest file 'Rover_Controller.egg-info/SOURCES.txt'
+[0.972s] writing manifest file 'Rover_Controller.egg-info/SOURCES.txt'
+[0.973s] running build_ext
+[0.973s] Creating /home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/python3.10/site-packages/Rover-Controller.egg-link (link to .)
+[0.974s] Installing control_subscriber script to /home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/Rover_Controller
+[0.974s] Installing keyboard_node script to /home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/Rover_Controller
+[0.974s] Installing test_node script to /home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/Rover_Controller
+[0.974s] 
+[0.975s] Installed /home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller
+[0.975s] running install_data
+[0.975s] copying package.xml -> /home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/share/Rover_Controller
+[1.023s] Invoked command in '/home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller' returned '0': PYTHONPATH=/home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/prefix_override:/home/rayv/RoverHG/ROS2_v_0_0/install/Rover_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rayv/RoverHG/ROS2_v_0_0/build/Rover_Controller/build --no-deps install_data

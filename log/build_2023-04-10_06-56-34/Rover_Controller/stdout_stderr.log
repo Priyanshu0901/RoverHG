@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating Rover_Controller.egg-info
+writing Rover_Controller.egg-info/PKG-INFO
+writing dependency_links to Rover_Controller.egg-info/dependency_links.txt
+writing entry points to Rover_Controller.egg-info/entry_points.txt
+writing requirements to Rover_Controller.egg-info/requires.txt
+writing top-level names to Rover_Controller.egg-info/top_level.txt
+writing manifest file 'Rover_Controller.egg-info/SOURCES.txt'
+reading manifest file 'Rover_Controller.egg-info/SOURCES.txt'
+writing manifest file 'Rover_Controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rayv/RoverHG/install/Rover_Controller/lib/python3.10/site-packages/Rover-Controller.egg-link (link to .)
+Installing control_subscriber script to /home/rayv/RoverHG/install/Rover_Controller/lib/Rover_Controller
+Installing keyboard_node script to /home/rayv/RoverHG/install/Rover_Controller/lib/Rover_Controller
+Installing test_node script to /home/rayv/RoverHG/install/Rover_Controller/lib/Rover_Controller
+
+Installed /home/rayv/RoverHG/build/Rover_Controller
+running install_data
+creating /home/rayv/RoverHG/install/Rover_Controller/share/ament_index
+creating /home/rayv/RoverHG/install/Rover_Controller/share/ament_index/resource_index
+creating /home/rayv/RoverHG/install/Rover_Controller/share/ament_index/resource_index/packages
+copying resource/Rover_Controller -> /home/rayv/RoverHG/install/Rover_Controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/rayv/RoverHG/install/Rover_Controller/share/Rover_Controller
